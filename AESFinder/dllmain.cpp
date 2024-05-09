@@ -2,12 +2,12 @@
 #include "FAESKey.h"
 
 /* utility for convert a pointer to an hex */
-static inline uintptr_t PointerToHex(void* ptr)
+inline uintptr_t PointerToHex(void* ptr)
 {
 	return reinterpret_cast<uintptr_t>(ptr);
 }
 
-static inline bool CreateOutputFolder()
+inline bool CreateOutputFolder()
 {
 	fs::path filePath(Settings::SavePath);
 	try
@@ -32,7 +32,7 @@ inline std::string FNBuild;
 inline std::string FNVersion;
 
 /* NOTE: this is supported only from v15.50 to latest */
-static inline bool GetFNVersion()
+inline bool GetFNVersion()
 {
 	uintptr_t FNBuild_Addr = Memcury::Scanner::FindPattern(Patterns::VersionPattern_2).Get();
 	if (!FNBuild_Addr) {
