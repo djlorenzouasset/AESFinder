@@ -13,7 +13,7 @@ Dll that allows you to dump the main AES key of Fortnite through game's memory (
 
 ## How to use
 
-1. Run Carbon private server (get it from <a href="https://discord.gg/HR2TjuE">here</a>).
+1. Run Carbon private server (get it from <a href="https://discord.gg/HR2TjuEb">here</a>).
 
 2. Use <a href="https://mega.nz/file/MUhUlaqa#PI0ubSy_sQc4GouDPnZbulNSgQRUNIJeXNwLb2LnKhk">UUUClient</a> (or others injectors) for inject the DLL in the Fortnite process.
 
