@@ -35,6 +35,7 @@ namespace Patterns
 
 namespace Settings
 {
+	constexpr bool bIsUEFN = true; // enabled by default because you can't dump fn latest anymore
 	constexpr bool bShouldSaveFile = true;
 	constexpr const char* SavePath = "C:/AESFinder";
 }
