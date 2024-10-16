@@ -31,7 +31,7 @@ inline bool CreateOutputFolder()
 inline std::string FNBuild;
 inline std::string FNVersion;
 
-/* NOTE: this is supported only from v15.50 to latest */
+/* NOTE: this is supported only from v15.50 to latest but not on UEFN */
 inline bool GetFNVersion()
 {
 	uintptr_t FNBuild_Addr = Memcury::Scanner::FindPattern(Patterns::VersionPattern_2).Get();
